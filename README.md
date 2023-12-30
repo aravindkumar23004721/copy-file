@@ -41,6 +41,6 @@ print(b.read())
 ### OUTPUT:
 ![Screenshot 2023-12-30 224511](https://github.com/aravindkumar23004721/copy-file/assets/148962674/32513f72-f3d1-4800-9bcf-24fc66d91181)
 ![Screenshot 2023-12-30 225343](https://github.com/aravindkumar23004721/copy-file/assets/148962674/f45faf58-2251-4778-b23a-fedfe45dacf6)
-![Screenshot 2023-12-30 225124](https://github.com/aravindkumar23004721/copy-file/assets/148962674/a9bfecf7-50c5-4628-bda5-c61f79c2ef9e)
+![Screenshot 2023-12-30 230606](https://github.com/aravindkumar23004721/copy-file/assets/148962674/a7509f5b-23d5-49e8-a8e7-b553a842a7d9)
 ### RESULT:
 Thus the program is written to copy the contents from one file to another file.
