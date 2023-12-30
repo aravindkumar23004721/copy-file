@@ -42,7 +42,7 @@ if name == "main":
     word_count = get_word_count(file_path)
     if word_count is not None:
         print(f"Word count in '{file_path}': {word_count}")
-
+```
 ### OUTPUT:
 ![python](https://github.com/aravindkumar23004721/copy-file/assets/148962674/4824ec51-89c8-48c6-8b45-4b48e7653a7f)
 ![python 1](https://github.com/aravindkumar23004721/copy-file/assets/148962674/55f8cb0f-23e9-4912-9da2-db1e2ddfe9f3)
