@@ -1,4 +1,4 @@
-# copy-file
+![Screenshot 2023-12-30 224511](https://github.com/aravindkumar23004721/copy-file/assets/148962674/914b1c69-ca6f-4750-8398-4d36df3d40d1)# copy-file
 ## AIM:
 To write a python program for copying the contents from one file to another file.
 ## EQUIPEMENT'S REQUIRED: 
@@ -6,47 +6,41 @@ PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
-Import the sys module.
+Open the source file in read mode.
+
 ### Step 2:
-Define a function get_word_count(file_path) to calculate the word count in the file.
+Read the contents of the source file and store it in a variable
+
 ### Step 3:
-Check if the script is being run as the main program
+Close the source file.
+
 ### Step 4:
-Check if the correct number of command-line arguments (i.e., 2) is provided.
+Open the destination file in write mode. If the file doesn't exist, it will be created.
+
 ### Step 5:
-Get the file path from the command-line argument
+Write the contents from the variable to the destination file.
+
 ### Step 6:
-Print the word count if it is not None.
+Read the contents of the destination file and print it to verify the copy operation.
+
 ### Step 7:
 End the program
 ## PROGRAM:
 ```python
-Program for getting the word count using command line arguments.
-Developed by:ARAVIND KUMAR SS 
-Register number: 23004721
-import sys
-def get_word_count(file_path):
-    try:
-        with open(file_path, 'r') as file:
-            content = file.read()
-            word_count = len(content.split())
-            return word_count
-    except FileNotFoundError:
-        print(f"Error: File '{file_path}' not found.")
-        return None
-if name == "main":
-    if len(sys.argv) != 2:
-        print("Usage: python word_count.py <file_path>")
-        sys.exit(1)
-    file_path = sys.argv[1]
-    word_count = get_word_count(file_path)
-    if word_count is not None:
-        print(f"Word count in '{file_path}': {word_count}")
+#Program to copy the text from one file to another
+#Developed by :Aravindkumar ss
+#Register umber :23004721
+f=open(r"/content/mano1.txt","r")
+a=f.read()
+print(a)
+b=open(r"/content/mano.txt","w+")
+b.write(a)
+b.seek(0)
+print(b.read())
 ```
 ### OUTPUT:
-![python](https://github.com/aravindkumar23004721/copy-file/assets/148962674/4824ec51-89c8-48c6-8b45-4b48e7653a7f)
-![python 1](https://github.com/aravindkumar23004721/copy-file/assets/148962674/55f8cb0f-23e9-4912-9da2-db1e2ddfe9f3)
-![python 2](https://github.com/aravindkumar23004721/copy-file/assets/148962674/3aa954be-1fca-49b1-aec9-60e4ce2e8e6e)
-![python 3](https://github.com/aravindkumar23004721/copy-file/assets/148962674/7213ce37-0ca6-4449-a8d2-1ae8ad8caecd)
-## RESULT:
+![Screenshot 2023-12-30 224511](https://github.com/aravindkumar23004721/copy-file/assets/148962674/32513f72-f3d1-4800-9bcf-24fc66d91181)
+![Screenshot 2023-12-30 225343](https://github.com/aravindkumar23004721/copy-file/assets/148962674/f45faf58-2251-4778-b23a-fedfe45dacf6)
+![Screenshot 2023-12-30 225124](https://github.com/aravindkumar23004721/copy-file/assets/148962674/a9bfecf7-50c5-4628-bda5-c61f79c2ef9e)
+### RESULT:
 Thus the program is written to copy the contents from one file to another file.
